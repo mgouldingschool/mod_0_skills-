@@ -1,13 +1,13 @@
 ```
-instance : chicken_salad
+Instance : chicken_salad
 
-attributes :
+Attributes :
 is_temp_hot = false
 price = 11.99
 food_name = "Chicken Salad"
 happy_hour_sale = false
 
-methods:
+Methods:
 choose_food (change food_name)
 temp_food (>110 change is_temp_hot to true)
 is_sale (change happy_hour_sale to true)
